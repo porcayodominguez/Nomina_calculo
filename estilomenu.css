@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+body{
+  background-image: url(fondos/conta.jpg);
+  margin: 65px auto;
+  color:rgb(190, 190, 190) ; /*Color de la letra*/
+  width: 90%;
+}
+.contenedor-principal
+{
+  width: 80%;
+  margin: 25px auto;
+  font-family: 'Staatliches', cursive;
+  background: rgb(36, 0, 71);
+  color: rgb(252, 255, 254);
+  font-size: 28px;
+}
+.contenedor-titulo
+{
+  margin: 12px;
+  padding: 15px;
+  background: rgb(0, 48, 34);
+  color: rgb(252, 255, 254);
+  font-size: 25px;
+  text-align: center;
+}
+.contenedor-form
+{
+  font-family: 'Barlow Condensed', sans-serif;
+  background: rgb(51, 0, 116);
+  box-shadow: 0 0 20px #333;
+  padding: 60px;
+  font-size: 19px;
+
+}
+.contenedor-label
+{
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 20px;
+  margin: 10px;
+  width: 19px auto;
+
+}
+
+.contenedor-input
+{
+  width: 85%;
+  margin-right: 45px;
+  margin-bottom: 10px;
+  font-size: 25px;
+  border-radius: 15px;
+  padding: 7px;
+  box-shadow: 0px 0px 0px rgb(189, 7, 77);
+}
+.boton
+{
+  font-family: 'Cinzel', serif;
+	margin: 0px 250px;
+	font-size: 21px;
+	position: relative;
+	display: block;
+	padding: 12px 90px;
+	border-radius: 19px;
+	text-align: center;
+	font-weight: bold;
+	max-width: 100px;
+	height: 13px;
+	margin-bottom: 100px;
+	overflow: visible;
+	color:rgb(255, 255, 255);
+	cursor: pointer;
+	box-shadow:inset 4 4 4 0px  rgb(0, 43, 65);
+	text-decoration: none;
+	transition: all ease 0.5s;
+	background: rgb(17, 14, 13);
+}
+.boton:hover{
+	background-color: rgb(243, 242, 255);
+  color: rgb(0, 0, 0);
+  box-shadow: 0px 02px 5px rgb(71, 56, 91);
+  padding-top: 2px;
+	animation: 34s;
+}
+a{
+	font-family: 'Patua One', cursive;
+	color: rgb(255, 255, 255);
+  font-size: 20px;
+}

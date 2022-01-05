@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Evaluación Tema 2 "Porcayo Domínguez Jesús Alfredo"</title>
+    <link rel="stylesheet" href="estilosnomina.css">
+  </head>
+  <body>
+    <div class="contenedor-principal"><h2>PERIODO SEMANAL (7 DÍAS).</h2>
+      <form class="contenedor-form" action="calculonomina.php" method="post">
+        <label for="" class="contenedor-label">Ingrese su nombre:</label>
+        <input type="text" name="nombre" class="contenedor-input"><br><br>
+        <label for="" class="contenedor-label">Ingrese su apellido paterno:</label>
+        <input type="text" name="apellidop" class="contenedor-input"><br><br>
+        <label for="" class="contenedor-label">Ingrese su apellido materno:</label>
+        <input type="text" name="apellidom" class="contenedor-input"><br><br>
+        <label for="" class="contenedor-label">Ingrese su salario diario:</label>
+        <input type="text" name="salariodiario" class="contenedor-input"><br><br>
+        <label for="" class="contenedor-label">Días trabajados (7 dias):</label>
+        <input type="text" name="dias" class="contenedor-input"><br><br>
+        <label for="" class="contenedor-label">Horas extras:</label>
+        <input type="text" name="horasextras" class="contenedor-input"><br><br>
+        <li><label for="">Año de ingreso a laborar:</label></li>
+        <select name="año" size="1">
+        <option>2000</option>
+        <option>2001</option>
+        <option>2002</option>
+        <option>2003</option>
+        <option>2004</option>
+        <option>2005</option>
+        <option>2006</option>
+        <option>2007</option>
+        <option>2008</option>
+        <option>2009</option>
+        <option>2010</option>
+        <option>2011</option>
+        <option>2012</option>
+        <option>2013</option>
+        <option>2014</option>
+        <option>2015</option>
+        <option>2016</option>
+        <option>2017</option>
+        <option>2018</option>
+        <option>2019</option>
+        <option>2020</option>
+        <option>2021</option>
+        </select>
+        <li><label for="">Estimado empleado si usted justifico su falta (SELECCIONE JUSTIFICADA) y si no justifico su falta (SELECCIONE INJUSTIFICADA):</label></li>
+        <select name="falta"id="falta">
+        <option value="justificada">JUSTIFICADA</option><option value="injustificada">INJUSTIFICADA</option>
+        </select>
+        <input type="submit" class="contedor-submit" name="" value="Calcula su nómina.">
+        <input type="reset" class="contedor-submit-a" name="" value="Restaurar.">
+
+
+      </form>
+    </div>
+    </body>
+</html>

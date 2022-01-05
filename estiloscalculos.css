@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+body{
+  background-image: url(fondos/conta.jpg);
+  margin: 65px auto;
+  color:rgb(190, 190, 190) ; /*Color de la letra*/
+  width: 90%;
+}
+.contenedor-principal
+{
+  width: 100%;
+  margin: 25px auto;
+  font-family: 'Francois One', sans-serif;
+  background: rgb(107, 0, 74);
+  color: rgb(252, 255, 254);
+  font-size: 28px;
+}
+.contenedor-titulo
+{
+  margin: 12px;
+  padding: 15px;
+  font-size: 25px;
+  text-align: center;
+}
+.contenedor-form
+{
+  font-family: 'Barlow Condensed', sans-serif;
+  background: rgb(51, 0, 116);
+  box-shadow: 0 0 20px #333;
+  padding: 60px;
+  font-size: 19px;
+  text-align: center;
+}
+h1{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 23px;
+  font-weight: bold;
+  text-align: justify;
+}
+li{
+  font-family: 'Newsreader', serif;
+  font-size: 21px;
+  font-weight: bold;
+  text-align: center;
+}
+h2{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 23px;
+  font-weight: bold;
+  text-align: justify;
+}
+h3{
+  font-family: 'Crete Round', serif;
+  font-size: 23px;
+  text-align: center;
+}
+.logo-left
+{
+  float:left;
+  padding: 20px 0px 0px 20px;
+  width: 120px;
+  height: 120px;
+}
